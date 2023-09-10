@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bbce72f-5013-4820-baed-7df630db8932" name="Default Changelist" comment="" />
+    <list default="true" id="0bbce72f-5013-4820-baed-7df630db8932" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_mon_qkex/test_qkexapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_mon_qkex/test_qkexapi.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +21,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2UmoT9JhgOeCUkhimsQWNJD0AIn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -25,8 +33,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test_mon_qkex" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -35,7 +44,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -64,6 +73,7 @@
       <workItem from="1693906391495" duration="2756000" />
       <workItem from="1693909184372" duration="11686000" />
       <workItem from="1693990904052" duration="7026000" />
+      <workItem from="1694342734937" duration="902000" />
     </task>
     <servers />
   </component>
@@ -71,10 +81,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1693993127244">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1694342750441">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.672@0.0.1280.672" timestamp="1693993127244" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.672@0.0.1280.672" timestamp="1694342750441" />
     <state x="397" y="206" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1693555585309">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
@@ -95,14 +105,14 @@
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state width="1237" height="157" key="GridCell.Tab.0.right/0.0.1280.672@0.0.1280.672" timestamp="1693903508610" />
-    <state x="161" y="0" key="SettingsEditor" timestamp="1693993153856">
+    <state x="161" y="0" key="SettingsEditor" timestamp="1694342782558">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state x="161" y="0" key="SettingsEditor/0.0.1280.672@0.0.1280.672" timestamp="1693993153856" />
-    <state x="325" y="161" key="com.intellij.ide.util.TipDialog" timestamp="1693990914297">
+    <state x="161" y="0" key="SettingsEditor/0.0.1280.672@0.0.1280.672" timestamp="1694342782558" />
+    <state x="325" y="161" key="com.intellij.ide.util.TipDialog" timestamp="1694342743229">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state x="325" y="161" key="com.intellij.ide.util.TipDialog/0.0.1280.672@0.0.1280.672" timestamp="1693990914297" />
+    <state x="325" y="161" key="com.intellij.ide.util.TipDialog/0.0.1280.672@0.0.1280.672" timestamp="1694342743229" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/qkex0901$test_contact.coverage" NAME="test_api_qkex Coverage Results" MODIFIED="1693730587680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_mon_qkex" />

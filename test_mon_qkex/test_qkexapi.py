@@ -24,7 +24,8 @@ class Testmonqkex():
         caps["dontStopAppOnReset"] = "true"
         caps["unicodeKeyBord"] = "true"
         caps["resetKeyBord"] = "true"
-        caps['app'] = f'{os.path.abspath(os.curdir)}/app/QKEx_dev_3.0.15-dev.apk'
+        caps["skipServerInitialization"] = "true"
+        caps['app'] = r'C:\qkex20230901\app\QKEx_dev_3.0.15-dev.apk'
         self.driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", caps)
         self.driver.implicitly_wait(5)
         self.clickupdate()
