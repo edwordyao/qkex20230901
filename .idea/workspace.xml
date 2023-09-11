@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bbce72f-5013-4820-baed-7df630db8932" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qkex20230901" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result1/36e8b824-ae93-45b9-adac-a90db9598a39-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result1/e310f54f-df37-4063-b643-cdded1bbfbda-container.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test_mon_qkex/test_qkexapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_mon_qkex/test_qkexapi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,6 +127,7 @@
     <SUITE FILE_PATH="coverage/qkex0901$pytest_for_test_contact_Testmonqkex_test_api_sy_instruments.coverage" NAME="pytest for test_contact.Testmonqkex.test_api_sy_instruments Coverage Results" MODIFIED="1693818536520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_mon_qkex" />
     <SUITE FILE_PATH="coverage/qkex0901$Unittests_in_test_qkexapi_py.coverage" NAME="Unittests in test_qkexapi.py Coverage Results" MODIFIED="1693899940480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_mon_qkex" />
     <SUITE FILE_PATH="coverage/qkex0901$pytest_for_test_contact_Testmonqkex_test_api_sy_kyc_status.coverage" NAME="pytest for test_contact.Testmonqkex.test_api_sy_kyc_status Coverage Results" MODIFIED="1693818522187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_mon_qkex" />
+    <SUITE FILE_PATH="coverage/qkex20230901$pytest_in_test_qkexapi_py.coverage" NAME="pytest in test_qkexapi.py Coverage Results" MODIFIED="1694414815610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_mon_qkex" />
     <SUITE FILE_PATH="coverage/qkex0901$pytest_for_test_contact_Testmonqkex_test_api_sy_favorite.coverage" NAME="pytest for test_contact.Testmonqkex.test_api_sy_favorite Coverage Results" MODIFIED="1693818542866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_mon_qkex" />
   </component>
 </project>

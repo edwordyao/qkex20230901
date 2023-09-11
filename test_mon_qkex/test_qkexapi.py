@@ -6,6 +6,8 @@ from selenium.webdriver.common.by import By
 import os
 import allure
 import pytest
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from pytest_testconfig import config
 # @allure.environment(OPERATING_SYSTEM="Windows", BROWSER="Chrome", PYTHON_VERSION="3.8.10"
 
@@ -35,12 +37,14 @@ class Testmonqkex():
         self.driver.quit()
 
     def clickupdate(self):
-        el1 = self.driver.find_element(By.XPATH,
-        "/hierarchy/android.view.ViewGroup/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.TextView")
-        if el1 is None:
-            pass
-        else:
+        try:
+            el1 = self.driver.find_element(By.XPATH,
+                                           "/hierarchy/android.view.ViewGroup/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.TextView")
+            WebDriverWait(self.driver, 10, 0.5).until(EC.presence_of_element_located(el1))
             el1.click()
+        except:
+            pass
+
 
     def test_clickspots(self):
         el2 = self.driver.find_element(By.ID, "com.qkex.dev:id/ll_coin")
