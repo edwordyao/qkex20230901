@@ -2,7 +2,7 @@
 import allure
 import json
 import requests
-from logutil import Logsv
+from qkex_mon_api.logutil import Logsv
 logger = Logsv()
 
 @allure.feature("首页相关接口")

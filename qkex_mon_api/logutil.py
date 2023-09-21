@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from logging.handlers import RotatingFileHandler
-from project_path import get_project_path
+from qkex_mon_api.project_path import get_project_path
 import colorlog, datetime, logging, time, os
 log_path = get_project_path() + '\\logs'
 if not os.path.exists(log_path):
